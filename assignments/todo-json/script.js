@@ -29,17 +29,14 @@ async function funcName(url){
                 let h1 = document.createElement('h4');
                 let h2 = document.createElement('h4');
                 let h3 = document.createElement('h4');
-                let h4 = document.createElement('h4');
 
-                h1.innerText = completed[i].userId;
-                h2.innerText = completed[i].id;
-                h3.innerText = completed[i].title;
-                h4.innerText = completed[i].completed;
+                h1.innerText = completed[i].id;
+                h2.innerText = completed[i].title;
+                h3.innerText = completed[i].completed;
                 
                 div.appendChild(h1);
                 div.appendChild(h2);
                 div.appendChild(h3);
-                div.appendChild(h4);
 
                 answer.appendChild(div)
             }
@@ -54,17 +51,14 @@ async function funcName(url){
                 let h1 = document.createElement('h4');
                 let h2 = document.createElement('h4');
                 let h3 = document.createElement('h4');
-                let h4 = document.createElement('h4');
 
-                h1.innerText = pending[i].userId;
-                h2.innerText = pending[i].id;
-                h3.innerText = pending[i].title;
-                h4.innerText = pending[i].completed;
+                h1.innerText = pending[i].id;
+                h2.innerText = pending[i].title;
+                h3.innerText = pending[i].completed;
                 
                 div.appendChild(h1);
                 div.appendChild(h2);
                 div.appendChild(h3);
-                div.appendChild(h4);
 
                 answer.appendChild(div)
             }
@@ -79,17 +73,14 @@ async function funcName(url){
                 let h1 = document.createElement('h4');
                 let h2 = document.createElement('h4');
                 let h3 = document.createElement('h4');
-                let h4 = document.createElement('h4');
 
-                h1.innerText = data[i].userId;
-                h2.innerText = data[i].id;
-                h3.innerText = data[i].title;
-                h4.innerText = data[i].completed;
+                h1.innerText = data[i].id;
+                h2.innerText = data[i].title;
+                h3.innerText = data[i].completed;
                 
                 div.appendChild(h1);
                 div.appendChild(h2);
                 div.appendChild(h3);
-                div.appendChild(h4);
 
                 answer.appendChild(div)
             }

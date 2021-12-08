@@ -33,23 +33,11 @@
 .output div{
     display: flex;
 }
-#uid, #id, #done{
+#id, #done,#title{
     flex: 1;
-    background-color: rgb(231, 9, 9);
-    margin: 2px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    cursor: pointer;
-}
-#title{
-    flex: 4;
-    background-color: rgb(231, 9, 9);
-    margin: 2px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    cursor: pointer;
+    background-color:yellow;
+    margin: 1px;
+    padding: 2px;
 }
 
 .rows:hover{
@@ -61,7 +49,7 @@
     margin: 5px;
 }
 .rows h4{
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -72,8 +60,5 @@
     flex: 1;
 }
 .rows h4:nth-child(3){
-    flex: 4;
-}
-.rows h4:nth-child(4){
     flex: 1;
 }
