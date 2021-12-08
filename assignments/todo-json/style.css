@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   text-align: center;
+   margin: 0 auto;
+   width: 80%;
+}
+#dropdown{
+    width: 10rem;
+    margin: 5vh auto;
+    height: 30px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+}
+.main div{
+    display: flex;
+}
+.output div{
+    display: flex;
+}
+#id, #done,#title{
+    flex: 1;
+    background-color:yellow;
+    margin: 1px;
+    padding: 2px;
+}
+
+.rows:hover{
+    border-radius: 15px;
+}
+
+.rows{
+    display: flex;
+    margin: 5px;
+}
+.rows h4{
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    flex:1
+}
